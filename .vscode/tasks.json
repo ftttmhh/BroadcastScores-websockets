@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install Drizzle and Node-Postgres",
+			"type": "shell",
+			"command": "npm install drizzle-orm pg dotenv && npm install -D drizzle-kit tsx @types/pg"
+		},
+		{
+			"label": "Install Drizzle and Node-Postgres",
+			"type": "shell",
+			"command": "npm install drizzle-orm pg dotenv; npm install -D drizzle-kit tsx @types/pg"
+		}
+	]
+}
